@@ -1,3 +1,30 @@
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Output directories
 output/
+starter_project/output/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Airflow
+airflow.cfg
+airflow.db
+unittests.cfg
+webserver_config.py
+logs/
+
+# Environment variables
+.env
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
